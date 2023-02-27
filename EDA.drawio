@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T07:40:50.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="eD65hrJT9mFIV8aHkO2m" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T07:42:15.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="9bIMO4MZThpp-lmmEsbs" version="20.8.23" type="github">
   <diagram name="Page-1" id="jt4ZISShodlBxiSZYyno">
     <mxGraphModel dx="732" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,8 +70,8 @@
         <mxCell id="KYuz1vz09E3Rf9H6T9P5-22" value="&lt;b&gt;Boxplot&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="355" y="500" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-23" value="Bivariet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="560" y="150" width="90" height="40" as="geometry" />
+        <mxCell id="KYuz1vz09E3Rf9H6T9P5-23" value="Numerical-Numerical" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="150" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KYuz1vz09E3Rf9H6T9P5-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYuz1vz09E3Rf9H6T9P5-5" target="KYuz1vz09E3Rf9H6T9P5-23">
           <mxGeometry relative="1" as="geometry">
@@ -79,14 +79,11 @@
             <mxPoint x="523.48" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYuz1vz09E3Rf9H6T9P5-5" target="KYuz1vz09E3Rf9H6T9P5-28">
+        <mxCell id="KYuz1vz09E3Rf9H6T9P5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYuz1vz09E3Rf9H6T9P5-5" target="KYuz1vz09E3Rf9H6T9P5-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KYuz1vz09E3Rf9H6T9P5-5" target="KYuz1vz09E3Rf9H6T9P5-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-26" value="Bivariet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="690" y="150" width="90" height="40" as="geometry" />
+        <mxCell id="KYuz1vz09E3Rf9H6T9P5-26" value="Numerical-Categorical" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="150" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KYuz1vz09E3Rf9H6T9P5-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="KYuz1vz09E3Rf9H6T9P5-26">
           <mxGeometry relative="1" as="geometry">
@@ -94,11 +91,8 @@
             <mxPoint x="653.48" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-28" value="Bivariet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="960" y="150" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-30" value="Bivariet" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="840" y="150" width="90" height="40" as="geometry" />
+        <mxCell id="KYuz1vz09E3Rf9H6T9P5-30" value="Categorical-Categorical" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="980" y="150" width="90" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
