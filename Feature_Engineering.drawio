@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T09:30:39.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tsTtx4mNoo62lKIQVaUZ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:33:34.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="JjkZCUcb1hTPtZAojAsp" version="20.8.23" type="github">
   <diagram name="Page-1" id="khNjEgueq9Hnr0_aDzN0">
     <mxGraphModel dx="1126" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,8 +60,8 @@
         <mxCell id="wbTJqozSOBXZTNc4BJRr-19" value="Categorical" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="720" y="190" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wbTJqozSOBXZTNc4BJRr-26" value="&lt;font color=&quot;#000000&quot;&gt;1. Ordinal Encoder&lt;br&gt;&lt;/font&gt;sklearn.preprocessing.OrdinalEncoder&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;2. Label Endoder&lt;br&gt;&lt;/font&gt;sklearn.preprocessing.LabelEncoder&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;3. One Hot Encoder&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#0000FF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="688" y="280" width="252" height="90" as="geometry" />
+        <mxCell id="wbTJqozSOBXZTNc4BJRr-26" value="&lt;font color=&quot;#000000&quot;&gt;1. Ordinal Encoder&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.OrdinalEncoder&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;2. Label Endoder&lt;br&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.LabelEncoder&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;3. One Hot Encoder&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;pd.getDummies(df)&lt;br&gt;from sklearn.preprocessing import OneHotEncoder&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="620" y="280" width="240" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
