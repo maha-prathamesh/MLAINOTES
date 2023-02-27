@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T07:55:09.593Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BvmYiDi4Dltvcd0sn5RQ" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T08:00:07.895Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="sNupPHI_OlnHYVHrdc5I" version="20.8.23" type="github">
   <diagram name="Page-1" id="jt4ZISShodlBxiSZYyno">
-    <mxGraphModel dx="1767" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1331" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,8 +139,10 @@
             <mxPoint x="50" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="KYuz1vz09E3Rf9H6T9P5-48" target="KYuz1vz09E3Rf9H6T9P5-53">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KYuz1vz09E3Rf9H6T9P5-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KYuz1vz09E3Rf9H6T9P5-48" target="KYuz1vz09E3Rf9H6T9P5-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="146.99999999999977" y="290" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KYuz1vz09E3Rf9H6T9P5-48" value="Non Graphical" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="195" width="90" height="40" as="geometry" />
@@ -151,8 +153,8 @@
             <mxPoint x="475" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYuz1vz09E3Rf9H6T9P5-53" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="20" y="290" width="250" height="610" as="geometry" />
+        <mxCell id="KYuz1vz09E3Rf9H6T9P5-55" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Central tendency&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1) Mean&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;2) Median&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;3) Mode&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Spread&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;1) Std Dev&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Skewness [Measure of Assymetry]&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fontSize=17;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="210" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
