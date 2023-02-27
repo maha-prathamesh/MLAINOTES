@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T09:13:19.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nvTXWX5skG5T7cNO-k62" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T09:15:34.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qedYteACgXrowpr-DIa4" version="20.8.23" type="github">
   <diagram name="Page-1" id="khNjEgueq9Hnr0_aDzN0">
     <mxGraphModel dx="1126" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="wbTJqozSOBXZTNc4BJRr-10" value="&lt;b&gt;Standardization&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.StandardScaler&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;1.KNN&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;2. PCA&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;3. K Means&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;4. ANN&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;5. GD&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="280" width="210" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="wbTJqozSOBXZTNc4BJRr-11" value="&lt;b&gt;Normalization&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.StandardScaler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wbTJqozSOBXZTNc4BJRr-11" value="&lt;b&gt;Normalization&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.MinMaxScaler&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="280" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="wbTJqozSOBXZTNc4BJRr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbTJqozSOBXZTNc4BJRr-7" target="wbTJqozSOBXZTNc4BJRr-10">
