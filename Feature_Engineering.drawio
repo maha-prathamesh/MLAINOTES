@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T13:30:02.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Fbylo3H4AzzcZbyLNjMc" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-27T13:31:22.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Vv02jxMKutYLQcDvmYj7" version="20.8.23" type="github">
   <diagram name="Page-1" id="khNjEgueq9Hnr0_aDzN0">
     <mxGraphModel dx="1464" dy="2120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -122,7 +122,7 @@
             <mxPoint x="1661.25" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-17" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.FunctionTransformer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;FunctionTransformer(np.log1p&lt;/font&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Log&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Reciprocal&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. square/root&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-17" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.PowerTransformer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;PowerTransformer(method=&#39;box-cox&#39;&lt;/font&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Log&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Reciprocal&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. square/root&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1560" y="480" width="236.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="STAj-JnZXdegSU8uE5pT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="STAj-JnZXdegSU8uE5pT-19" source="STAj-JnZXdegSU8uE5pT-7">
