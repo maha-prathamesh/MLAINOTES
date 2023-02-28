@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T15:34:41.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LeGe4mIsU4ym2Dk9xQY5" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-28T14:51:21.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="h_ZIOZdB-RN-1NIcL_Kf" version="20.8.23" type="github">
   <diagram name="Page-1" id="khNjEgueq9Hnr0_aDzN0">
-    <mxGraphModel dx="1464" dy="2120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="861" dy="1700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="1630" y="-30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wbTJqozSOBXZTNc4BJRr-2" value="Transformation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1230" y="90" width="110" height="30" as="geometry" />
+          <mxGeometry x="1410" y="80" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wbTJqozSOBXZTNc4BJRr-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="wbTJqozSOBXZTNc4BJRr-1" target="wbTJqozSOBXZTNc4BJRr-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -81,63 +81,72 @@
         <mxCell id="wbTJqozSOBXZTNc4BJRr-35" value="&lt;div&gt;from sklearn.compose import ColumnTransformer&lt;/div&gt;&lt;div&gt;transformer = ColumnTransformer(transformers=&lt;font color=&quot;#000000&quot;&gt;[&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; (&#39;tnf1&#39;,SimpleImputer(),[&#39;fever&#39;]),&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; (&#39;tnf2&#39;,OrdinalEncoder(categories=[[&#39;Mild&#39;,&#39;Strong&#39;]]),[&#39;cough&#39;]),&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; (&#39;tnf3&#39;,OneHotEncoder(sparse=False,drop=&#39;first&#39;),[&#39;gender&#39;,&#39;city&#39;]&lt;/font&gt;)&lt;/div&gt;&lt;div&gt;],remainder=&#39;passthrough&#39;)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;align=left;" parent="1" vertex="1">
           <mxGeometry x="985" y="270" width="290" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontColor=#0000FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="STAj-JnZXdegSU8uE5pT-2" source="wbTJqozSOBXZTNc4BJRr-2">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontColor=#0000FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wbTJqozSOBXZTNc4BJRr-2" target="STAj-JnZXdegSU8uE5pT-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1125" y="210.30769230769215" as="targetPoint" />
             <mxPoint x="1610" y="120" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-4">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-2" value="Mathematical Transformer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-2" value="Mathematical Transformer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="190" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-2">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="STAj-JnZXdegSU8uE5pT-4" target="STAj-JnZXdegSU8uE5pT-14">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="STAj-JnZXdegSU8uE5pT-4" target="STAj-JnZXdegSU8uE5pT-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-4" value="Function Transfomers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-4" value="Function Transfomers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1340" y="300" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-6" value="Power Transfomers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-6" value="Power Transfomers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1593.13" y="300" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-7" value="Qunatile Transfomers" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-7" value="Qunatile Transfomers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1853.12" y="300" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-7">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1565" y="230" as="sourcePoint" />
             <mxPoint x="1665" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-14" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.FunctionTransformer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;FunctionTransformer(np.log1p&lt;/font&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Log&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Reciprocal&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. square/root&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-14" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.FunctionTransformer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;FunctionTransformer(np.log1p&lt;/font&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Log&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Reciprocal&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. square/root&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1306.88" y="480" width="236.25" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="STAj-JnZXdegSU8uE5pT-17" source="STAj-JnZXdegSU8uE5pT-6">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="STAj-JnZXdegSU8uE5pT-6" target="STAj-JnZXdegSU8uE5pT-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1661.25" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-17" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.PowerTransformer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;PowerTransformer(method=&#39;box-cox&#39;&lt;/font&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Box-cox&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Yeo-jhonsom&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-17" value="&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;sklearn.preprocessing.PowerTransformer&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;PowerTransformer(method=&#39;box-cox&#39;&lt;/font&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Box-cox&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Yeo-jhonsom&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1560" y="480" width="236.25" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="STAj-JnZXdegSU8uE5pT-19" source="STAj-JnZXdegSU8uE5pT-7">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="STAj-JnZXdegSU8uE5pT-7" target="STAj-JnZXdegSU8uE5pT-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1874.99" y="325" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1820.0000000000002" y="480" width="236.25" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="STAj-JnZXdegSU8uE5pT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-6">
+        <mxCell id="STAj-JnZXdegSU8uE5pT-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="STAj-JnZXdegSU8uE5pT-2" target="STAj-JnZXdegSU8uE5pT-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1540" y="290" as="sourcePoint" />
             <mxPoint x="1948" y="310" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vR4edPsxElzeWBaLZD4i-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#0000FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wbTJqozSOBXZTNc4BJRr-2" target="vR4edPsxElzeWBaLZD4i-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2300" y="170" as="targetPoint" />
+            <mxPoint x="1518" y="120" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vR4edPsxElzeWBaLZD4i-4" value="Handling Missing Value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="190" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
