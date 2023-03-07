@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T05:55:18.203Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="3qAcbTj5Iiy7gfyEMm9h" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T05:55:57.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="vOjxcbKHnbRjKJc08gc2" version="21.0.2" type="github">
   <diagram name="Page-1" id="7lBA7kvD_7xqQ8wuXruY">
     <mxGraphModel dx="976" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
             <mxPoint x="840" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OzWp20X-Q7MLgfGEOaph-69" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Random Forest&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OzWp20X-Q7MLgfGEOaph-69" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Bagging&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="45" y="1070" width="210" height="35" as="geometry" />
         </mxCell>
       </root>
