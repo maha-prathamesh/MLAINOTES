@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T06:00:02.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5uZcKhaWisLIY-iaDeKy" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T06:00:08.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kHIlq0V_PxkNn088lE9h" version="21.0.2" type="github">
   <diagram name="Page-1" id="7lBA7kvD_7xqQ8wuXruY">
     <mxGraphModel dx="976" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -317,7 +317,7 @@
         <mxCell id="OzWp20X-Q7MLgfGEOaph-90" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Random Forest&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="1350" width="210" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="OzWp20X-Q7MLgfGEOaph-91" value="Benefits:&amp;nbsp;&lt;br&gt;1. Improvement in performance&lt;br&gt;2. Reduction in Bias &amp;amp; Variance&lt;br&gt;3. Robustness" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OzWp20X-Q7MLgfGEOaph-91" value="Benefits:&amp;nbsp;&lt;br&gt;1. Improvement in performance&lt;br&gt;2. Reduction in Bias &amp;amp; Variance&lt;br&gt;3. Robustness" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="645" y="20" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
