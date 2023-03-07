@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T05:51:59.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Xby8qrXgLeCU1Fy5A8hs" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T05:52:17.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="1W0wcpX880Rz5Ao1ht_C" version="21.0.2" type="github">
   <diagram name="Page-1" id="7lBA7kvD_7xqQ8wuXruY">
     <mxGraphModel dx="976" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -127,7 +127,7 @@
             <mxPoint x="840" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OzWp20X-Q7MLgfGEOaph-40" value="&lt;h1&gt;Voting Classifier&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="OzWp20X-Q7MLgfGEOaph-40" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Voting Classifier&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="375" width="210" height="35" as="geometry" />
         </mxCell>
         <mxCell id="OzWp20X-Q7MLgfGEOaph-42" value="&lt;h1&gt;ENSAMBLE&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -138,6 +138,9 @@
             <mxPoint y="680" as="sourcePoint" />
             <mxPoint x="840" y="680" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OzWp20X-Q7MLgfGEOaph-44" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Stacking&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="710" width="210" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
