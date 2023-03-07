@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T06:53:29.150Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="hmaMtpHfxzun_BiLktan" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T06:59:48.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="KdB6bu1GE3t6ZGhAl0d9" version="21.0.2" type="github">
   <diagram name="Page-1" id="7lBA7kvD_7xqQ8wuXruY">
-    <mxGraphModel dx="976" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,12 +312,12 @@
         </mxCell>
         <mxCell id="OzWp20X-Q7MLgfGEOaph-89" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5" y="1660" as="sourcePoint" />
-            <mxPoint x="845" y="1660" as="targetPoint" />
+            <mxPoint x="-10" y="1980" as="sourcePoint" />
+            <mxPoint x="830" y="1980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OzWp20X-Q7MLgfGEOaph-90" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Random Forest&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1350" width="210" height="35" as="geometry" />
+        <mxCell id="OzWp20X-Q7MLgfGEOaph-90" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;HyperParamters&lt;/font&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1370" width="210" height="35" as="geometry" />
         </mxCell>
         <mxCell id="OzWp20X-Q7MLgfGEOaph-91" value="Benefits:&amp;nbsp;&lt;br&gt;1. Improvement in performance&lt;br&gt;2. Reduction in Bias &amp;amp; Variance&lt;br&gt;3. Robustness" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="645" y="20" width="200" height="70" as="geometry" />
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="OzWp20X-Q7MLgfGEOaph-96" value="&lt;font color=&quot;#3333ff&quot;&gt;&lt;b&gt;2000-3000 col 16-20&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="1270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OzWp20X-Q7MLgfGEOaph-98" value="&lt;div&gt;from sklearn.ensemble import BaggingClassifier&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Bagging&lt;/b&gt;&lt;/div&gt;&lt;div&gt;bag = BaggingClassifier(&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; base_estimator=DecisionTreeClassifier(),&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; n_estimators=500,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; max_samples=0.5,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bootstrap=True,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; random_state=42&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Pasting&lt;/b&gt;&lt;/div&gt;&lt;div&gt;	max_samples=0.25,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;bootstrap=False,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Random Subspaces&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; max_features=0.5,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bootstrap_features=True,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Random Patches&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;max_samples=0.25,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bootstrap=True,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; max_features=0.5,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; bootstrap_features=True&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;OOB Score&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;bootstrap=True,&lt;/div&gt;&lt;div&gt;&amp;nbsp;oob_score=True,&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Bagging Tips&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;Bagging generally gives better results than Pasting&lt;/li&gt;&lt;li&gt;Good results come around the 25% to 50% row sampling mark&lt;/li&gt;&lt;li&gt;Random patches and subspaces should be used while dealing with high dimensional data&lt;/li&gt;&lt;li&gt;To find the correct hyperparameter values we can do GridSearchCV/RandomSearchCV&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1420" width="540" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
